@@ -1,0 +1,66 @@
+GET http://localhost:5000/users
+
+
+###
+GET http://localhost:5000/users/16
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "jumlah1":"180.000",
+    "jumlah2":"200.000",
+    "jumlah4":"460.000",
+    "jumlah5": "7",
+    "jumlah6": "7",
+    "jumlah7": "7",
+    "jumlah8": "7",
+    "jumlah9": "7",
+    "jumlah10": "7",
+    "jumlah11": "7",
+    "jumlah12": "7",
+    "jumlah13": "7",
+    "jumlah14": "7",
+    "jumlah15": "7",
+    "jumlah16": "7",
+    "jumlah17": "7",
+    "jumlah18": "7",
+    "jumlah19": "7",
+    "jumlah20": "7",
+    "jumlah21": "7",
+    "jumlah22": "7",
+    "jumlah23": "7"
+}
+
+###
+PATCH  http://localhost:5000/users/16
+Content-Type: application/json
+
+{
+    "jumlah1":"200.000",
+    "jumlah2":"200.000",
+    "jumlah4":"460.000",
+    "jumlah5": "560.000",
+    "jumlah6": "560.000",
+    "jumlah7": "560.000",
+    "jumlah8": "560.000",
+    "jumlah9": "560.000",
+    "jumlah10": "560.000",
+    "jumlah11": "560.000",
+    "jumlah12": "560.000",
+    "jumlah13": "560.000",
+    "jumlah14": "560.000",
+    "jumlah15": "560.000",
+    "jumlah16": "560.000",
+    "jumlah17": "560.000",
+    "jumlah18": "560.000",
+    "jumlah19": "560.000",
+    "jumlah20": "560.000",
+    "jumlah21": "21",
+    "jumlah22": "21",
+    "jumlah23": "21"
+}
+
+###
+DELETE http://localhost:5000/users/15
